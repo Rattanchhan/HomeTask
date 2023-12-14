@@ -1,0 +1,51 @@
+
+.container{
+    width: 100%;
+    margin: auto;
+    height: 520px;
+}
+.main1{
+    background-color: red;
+}
+.main1,.main2,.main3{
+    width: 100%;
+    height: 140px;
+    margin:auto;
+    margin-bottom:15px;
+}
+.main2_child1,.main2_child2{
+    width: 49.375%;
+    height: 100%;
+    margin: auto;
+    float: left;
+}
+.main2_child1{
+    margin-right: 1.25%;
+    background-color: green;
+}
+.main2_child2{
+    background-color: blueviolet;
+}
+.main3_child1,.main3_child2,.main3_child3,.main3_child4{
+    width:24.0625%;
+    height: 100%;
+    margin: auto;
+    float:left;
+}
+.main3_child1{
+    background-color: yellow;
+}
+.main3_child2 {
+    background-color: black;
+}
+.main3_child3 {
+    background-color: gray;
+}
+.main3_child4 {
+    background-color:cadetblue;
+}
+.main3_child1,
+.main3_child2,
+.main3_child3{
+    margin-right:1.25%;
+}

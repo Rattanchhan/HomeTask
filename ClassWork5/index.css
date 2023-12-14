@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width:100%;
+    height: 800px;
+    background-color:rgb(38, 38, 38);
+}
+.header{
+    width:53%;
+    height: 40%;
+    margin: auto;
+    background-image: url("images/banner.jpg");
+    /* background-color: blueviolet; */
+    background-repeat: initial;
+    background-size: cover;
+}
+.detail{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    /* background-color: bisque; */
+}
+p{
+    font-family: Roboto;
+    font-weight: 300;
+    color: white;
+}
+.percentage{
+    font-family: Roboto;
+    width: 300px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.promotion{
+    font-size: 10px;
+    width:200px;
+    font-weight:300;
+}
+.child{
+    width: 100%;
+    /* background-color: black; */
+    height: 50%;
+}
+button{
+    margin-top: 10px;
+    border:none;
+    width: 48px;
+    height: 20px;
+    font-size: 6px;
+    background-color: rgb(173, 21, 21);
+    border-radius: 5px;
+    color: white;
+}
+.card-body{
+    width:38%;
+    height: 60%;
+    /* background-color: violet; */
+    margin:auto;
+}
+.card-top{
+    width:100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    /* background-color: cadetblue; */
+}
+.card-top-container{
+    width: 100%;
+    height: 70%;
+    /* background-color: blueviolet; */
+}
+.card-top-container .top,.card-top-container .bottom{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-top-container .bottom{
+    height: 75%;
+}
+.bottom .card{
+    width: 12.2%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+.bottom img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.card p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+}
+
+.card-top-container .top .left{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 16px;
+
+}
+.card-top-container .top .right{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(212, 12, 12);
+    font-size: 8px;
+}

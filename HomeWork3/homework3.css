@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width:100%;
+    margin:auto;
+    height: 800px;
+}
+.main_top{
+    width:100%;
+    margin: auto;
+    padding:94px 0px;
+    background-color: rgb(156, 154, 154);
+    text-align: center;
+}
+.left_top,
+.left_bottom,.right_top,.right_bottom{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.right_bottom,.left_bottom{
+    height: 410px;
+    margin-top: 20px;
+}
+.main_bottom{
+    width: 73%;
+    height: 660px;
+    margin:auto;
+    margin-top: 20px;
+    font-size: 24px;
+}
+.left,.right{
+    width: 49.0196%;
+    height: 100%;
+    margin-right: 1.9607%;
+    float: left;
+}
+.right{
+    margin-right:0%;
+}
+h2{
+    font-family: Battambang;
+    color: white;
+    margin-bottom:10px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 15px;
+}
+.left_top_left,.left_top_right,.right_top_left,
+.right_top_right{
+    width:47.6%;
+    height: 100%;
+    margin-right: 4.8%;
+    box-shadow:0px 0px 1px 0px rgb(96,96,96);
+    float: left;
+}
+.left_top_right,.right_top_right{
+    margin-right: 0%;
+}
+img{
+    width: 100%;
+    height: 71%;
+    object-fit: cover;
+}
+.images{
+    width: 96.5558%;
+    height: 96%;
+    margin:2% 1.7221%;
+}
+h3,p{
+    font-family: Battambang;
+    font-size: 18px;
+    color:rgb(95, 9, 176)
+}
+.title{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(96, 96, 96);
+}
+.description{
+    font-family: Battambang;
+    text-align: justify;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(156, 154, 154);
+    float: left;
+}
+.name{
+    width:100%;
+    margin-bottom: 30px;
+}
+span{
+    color: rgb(224, 32, 32);
+    font-weight: bold;
+}
