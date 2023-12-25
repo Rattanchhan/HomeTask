@@ -99,7 +99,7 @@ button{
 }
 .title h3{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 7px;
+    font-size: 6px;
     font-weight: 300;
     color: white;
 }
@@ -111,6 +111,8 @@ button{
     width:95%;
     height: 40%;
     margin:auto;
+    display: flex;
+    align-items: center;
 }
 .button{
     width:99%;
@@ -150,17 +152,65 @@ button{
 }
 .card p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 8px;
+    font-size: 6px;
 }
 
 .card-top-container .top .left{
     font-family: Arial, Helvetica, sans-serif;
     color:white;
-    font-size: 16px;
+    font-size: 12px;
 
 }
 .card-top-container .top .right{
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(212, 12, 12);
-    font-size: 8px;
+    font-size: 6px;
+}
+.card-bottom{
+    width: 100%;
+    height:40%;
+    display: flex;
+    align-items: center;
+}
+.card-bottom .container-card-bottom{
+    width: 100%;
+    height: 80%;
+}
+.card-bottom-top{
+    width: 100%;
+    height: 25%;
+}
+.card-bottom-bottom{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-bottom-bottom .bottom-left,.card-bottom-bottom .bottom-right{
+    width: 49%;
+    height: 100%;
+}
+.card-bottom-bottom .bottom-left, .card-bottom-bottom .bottom-right{
+    background-image: url("images/collection1.jpg");
+    background-size:cover;
+    border-radius: 5px;
+}
+.card-bottom-bottom .bottom-right{
+    background-image: url("images/collection2.jpg");
+}
+.container-card-bottom .card-bottom-top{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 12px;
+}
+.card-bottom-bottom .bottom-left button,.card-bottom-bottom .bottom-right button{
+    background-color: rgba(0,0,0,0.6);
+    background-image: none;
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: aliceblue;
+    margin-top: 95px;
 }
